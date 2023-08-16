@@ -1,4 +1,4 @@
-# AES-128-Encryption
+# Implementation of AES-128 bit Encryption and Decryption cryptographic algorithm
 
 AES encryption is a symmetric encryption algorithm that uses the same key for both encryption and decryption. It is one of the most widely used and secure encryption standards in the world. AES encryption operates on blocks of 128 bits, and can use keys of 128, 192, or 256 bits. The number of rounds of encryption depends on the key size, and ranges from 10 to 14. Each round consists of four steps: SubBytes, ShiftRows, MixColumns, and AddRoundKey. The last step involves adding a round key that is derived from the original key using a key schedule algorithm. AES encryption is based on the substitution-permutation network principle, which means that it transforms the input data by applying a series of substitutions and permutations. AES encryption is very efficient and fast in both hardware and software implementations
 
